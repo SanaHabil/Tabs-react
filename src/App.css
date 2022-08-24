@@ -1,0 +1,61 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+.App {
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+background-color: rgba(245, 238, 34, 0.654);
+}
+
+.Tabs {
+width: 60%;
+height: auto;
+min-height: 30px;
+background: whitesmoke;
+margin: 3.5rem auto 1.5rem;
+padding: 2rem 1rem;
+color: #757c7d;
+border-radius: 2rem;
+padding: 2rem 0;
+display: flex;
+align-items: center;
+justify-content:space-around
+}
+
+.viewstyle {
+width: 40%;
+height: auto;
+min-height: 400px;
+background: whitesmoke;
+color: #757c7d;
+border: solid 2px grey;
+display: flex;
+align-items: center;
+justify-content:center;
+margin: 3.5rem auto 1.5rem;
+padding: 2rem 1rem;
+}
+
+.tabsyle{
+  font-weight: bold;
+  border: solid 1px grey;
+  padding: 1rem;
+  list-style: none;
+  background-color: rgba(224, 248, 6, 0.308);
+  border-radius: 2rem;
+
+}
+.selected {
+  color: rgb(51, 46, 46);
+  background-color: rgba(225, 30, 23, 0.942);
+
+}
+
+.notSelected {
+
+}
